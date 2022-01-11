@@ -55,7 +55,6 @@ class AboutMessagePassing < Neo::Koan
 
   def test_sending_a_message_with_arguments
     mc = MessageCatcher.new
-#TODO
     assert_equal [], mc.add_a_payload
     assert_equal [], mc.send(:add_a_payload)
 
